@@ -11,10 +11,10 @@ Include the library:
 
 Listen for clicks on the body:
 ```javascript
-var lilBro = new LilBro({
+var Listener = new Listener({
   element: document.body,
-  server: 'server:8000',
-  ssl_server: 'server:8443',
+  server: 'listener.company.com:8000',
+  ssl_server: 'listener.company.com:8443',
   track_focus: true
 });
 ```
