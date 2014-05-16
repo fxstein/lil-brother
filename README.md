@@ -6,15 +6,15 @@ Li'l Brother tracks clicks on web pages, without blocking any interaction.
 
 Include the library:
 ```
-<script type="text/javascript" src="http://server/lilbro.js"></script>
+<script type="text/javascript" src="http://edge.company.com/listener.js"></script>
 ```
 
 Listen for clicks on the body:
 ```javascript
 var Listener = new Listener({
   element: document.body,
-  server: 'listener.company.com:8000',
-  ssl_server: 'listener.company.com:8443',
+  server: 'edge.company.com:8000',
+  ssl_server: 'edge.company.com:8443',
   track_focus: true
 });
 ```
